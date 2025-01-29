@@ -15,4 +15,4 @@ For Professional Portfolio we have to create our own brand from the ground up. T
 
 Here are some of the images I have found so far that are inspiring to me and are in the aesthetic I see my logo/website having:
 
-![pinterest](./images/Assignment3-pinterest.jpeg)
+![pinterest](./pinterest.jpeg)
