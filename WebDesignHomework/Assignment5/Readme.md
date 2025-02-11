@@ -1,0 +1,1 @@
+I really enjoyed my Directing class as it pushed me to basically be the producer, director, writer and editor of my own short film. This was a hard yet very fun challenge that ended up with amazing results!
