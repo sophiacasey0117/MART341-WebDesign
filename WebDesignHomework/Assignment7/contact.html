@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Sophia Casey's Portfolio</title>
+<meta name="viewport" content="width=device-width, inital-scale=1.0">
+<!--Website Aesthetics-->
+<style>
+    body {background-color: #fffbf3}
+    h1, blockquote {color: #262626}
+    h3 {color:#df614a}
+    h2 {color: #6aa492}
+    .logo { display: block; margin-left: auto; margin-right: auto; width: 15%; height:auto;}
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid #262626;
+      padding: 8px;
+    }
+    th {
+      background-color: #df614a;
+      color: fffbf3;
+    }
+    tr:nth-child(even) {
+      background-color: #fffbf3;
+    }
+  </style>
+</head>
+<body>
+<!--Website Content-->
+<!--Header Links-->
+        <a style="float:right;padding:10px" href="index.html">HOME</a>
+        <a style="float: right;padding:10px" href="contact.html">CONTACT</a>
+        <a style="float: right;padding:10px" href="portfolio.html">PORTFOLIO</a>
+      <img src="images/logodrafts.png" class="logo" alt="brand logo" title="Sophia Logo">
+        <hr>
+        <img src="images/contactheader.jpg" width="100%" height="auto" style="margin-left:auto" alt="contact page header image" title="Contact Page Header Image">
+        <hr>
+        
+<!--Table-->
+<h2 style="text-align: center;">Services</h2>
+
+    <table>
+        <tr>
+            <th></th>
+            <th scope="col">Photoshoot Style</th>
+            <th scope="col">Status</th>
+        </tr>
+        <tr>
+            <th scope="row">Portrait</th>
+            <td>Studio style portrait photoshoot. Fashion, editorial, headshots, etc.</td>
+            <td><input type="checkbox" id="style1"></td>
+        </tr>
+        <tr>
+            <th scope="row">Pet</th>
+            <td>Pet photography. Your furry friend in their natural habitat or a photoshoot of them with you!</td>
+            <td><input type="checkbox" id="style2"></td>
+        </tr>
+        <tr>
+            <th scope="row">Candid Events</th>
+            <td>Have an event like a wedding, reuinion, birthday, etc. that you need a photographer for? I can take candid photos around the event to capture the natural moment.</td>
+            <td><input type="checkbox" id="style3"></td>
+        </tr>
+    </table>
+
+<!--Form-->
+    <form action="mailto:sophiacasey04@gmail.com" method="post" enctype="text/plain">
+        <h2 style="text-align: center;">Contact Form</h2>
+        <fieldset>
+            <label>Full Name:<br>
+                <input type="text" name="name" required></label>
+            <br>
+            <br>
+            <label>Email:<br>
+                <input type="email" name="email" required></label>
+            <br>
+            <br>
+            <label>Phone Number:<br>
+                <input type="number" name="number" required></label>
+            <br>
+            <br>
+            <label>Share Your Ideas<br>
+                <textarea name="description" rows="4" cols="50" placeholder="Tell me about your vision! What kind of photos are you wanting to create?" required></textarea></label>
+        </fieldset>
+            <br>
+                <input type="submit" value="Submit Contact Info">
+            <br>
+            <br>
+    </form>

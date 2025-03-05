@@ -1,0 +1,4 @@
+# Reflection
+I really like how my Contact page turned out, and I enjoyed combining both the use of photoshop and illustrator to make my header photo. It added a lot more personality to the page and got me excited about stylizing the rest of my website when I have the tools and skills to do so. Specifically, I like how the header immediately lets the user know where they are in the website and what they can expect to see. I also really like how my color 
+
+Things are going well for me right now. I feel like I'm understanding the material in this class easily and the workload isn't overwhelming. Overall, I'm doing great!
