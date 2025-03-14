@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Sophia Casey's Portfolio</title>
+<meta name="viewport" content="width=device-width, inital-scale=1.0">
+<!--Website Aesthetics-->
+    <style>
+        #logo {
+            float: left;
+            text-decoration: none;
+            width: 100px;
+            padding: 0 10px 10px 10px;
+        }
+        nav {
+            float: right; 
+            padding: 5px 10px 10px 10px;
+        } 
+        nav a {
+            text-decoration: none; 
+            padding: 10px; 
+            color: #262626; 
+            display: inline-block; 
+        }   
+        * {
+          box-sizing: border-box;
+        }
+        body {
+            background-color: #262626;
+        }
+        header {
+            background-color: #fffbf391;
+            height: 50px;
+        }
+        h1 {
+            color: #df614a; 
+        }    
+        h2, p {
+            color: #6aa492;
+            text-align: center;
+        }
+        h3 {
+            color: #f2fcff;
+            text-align: center;
+        }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid #262626;
+      padding: 8px;
+    }
+    th {
+      background-color: #df614a;
+      color: fffbf3;
+    }
+    tr:nth-child(even) {
+      background-color: #fffbf3;
+    }
+    tr:nth-child(odd) {
+      background-color: #fffbf3;
+    }
+  </style>
+</head>
+<body>
+<!--Website Content-->
+<!--Header Links-->
+<header>
+    <nav>
+        <a href="index.html">HOME</a>
+        <a href="portfolio.html">PORTFOLIO</a>
+        <a href="contact.html">CONTACT</a>
+        <a href="aboutme.html">ABOUT</a>
+    </nav>
+<!--Logo-->
+<img src="images/final logo.png" id="logo">
+</header>
+<!--Contact Image-->  
+    <img src="images/contactheader.jpg" width="100%" height="auto" style="margin-left:auto" alt="contact page header image" title="Contact Page Header Image">
+        <hr>
+        
+<!--Table-->
+<h2 style="text-align: center;">Services</h2>
+
+    <table>
+        <tr>
+            <th></th>
+            <th scope="col">Photoshoot Style</th>
+            <th scope="col">Status</th>
+        </tr>
+        <tr>
+            <th scope="row">Portrait</th>
+            <td>Studio style portrait photoshoot. Fashion, editorial, headshots, etc.</td>
+            <td><input type="checkbox" id="style1"></td>
+        </tr>
+        <tr>
+            <th scope="row">Pet</th>
+            <td>Pet photography. Your furry friend in their natural habitat or a photoshoot of them with you!</td>
+            <td><input type="checkbox" id="style2"></td>
+        </tr>
+        <tr>
+            <th scope="row">Candid Events</th>
+            <td>Have an event like a wedding, reuinion, birthday, etc. that you need a photographer for? I can take candid photos around the event to capture the natural moment.</td>
+            <td><input type="checkbox" id="style3"></td>
+        </tr>
+    </table>
+
+<!--Form-->
+    <form action="mailto:sophiacasey04@gmail.com" method="post" enctype="text/plain">
+        <h2 style="text-align: center;">Contact Form</h2>
+        <fieldset>
+            <label style="color: #fffbf3;">Full Name:<br>
+                <input type="text" name="name" required></label>
+            <br>
+            <br>
+            <label style="color: #fffbf3;">Email:<br>
+                <input type="email" name="email" required></label>
+            <br>
+            <br>
+            <label style="color: #fffbf3;">Phone Number:<br>
+                <input type="number" name="number" required></label>
+            <br>
+            <br>
+            <label style="color: #fffbf3;">Share Your Ideas<br>
+                <textarea name="description" rows="4" cols="50" placeholder="Tell me about your vision! What kind of photos are you wanting to create?" required></textarea></label>
+        </fieldset>
+            <br>
+                <input type="submit" value="Submit Contact Info">
+            <br>
+            <br>
+<!--Footer-->
+    <footer>
+        <p>&copy; 2025 Sophia Casey's Portfolio</p>
+    </footer>
+    </form>
