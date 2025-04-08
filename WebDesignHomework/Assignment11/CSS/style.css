@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    background-color: #f8f5f2;
+}
+
+/* Link Styles */
+a {
+    opacity: 100%;
+}
+
+a:hover {
+    opacity: 80%;
+}
+
+h1 p {
+    color: #232323;
+}
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    color: #f8f5f2;
+  }
+
+/* Name Header Homepage*/
+.header {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-family:'Lemon Tuesday';
+    letter-spacing: 0.2em;
+    opacity: 90%;
+  }
+
+.header a {
+    color:#f8f5f2;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2em;
+  }
+
+/* Name Header Portfolio */
+.headerp {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-family:'Lemon Tuesday';
+    letter-spacing: 0.2em;
+    opacity: 100%;
+}
+
+.headerp a {
+    color: #232323;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+
+/* Link to Portfolio */
+.enter {
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    font-family: 'Thesadith';
+    letter-spacing: 0.2em;
+    opacity: 90%;
+  }
+
+.enter a {
+    color: #232323;
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 1.25em;
+    padding: 10px;
+    border: 2px solid #232323;
+  }
+
+/* Social Media Link */
+.ig {
+    position: absolute;
+    top: 45px;
+    right: 160px;
+    font-family: 'Thesadith';
+    letter-spacing: 0.2em;
+    opacity: 90%;
+  }
+
+.ig a  {
+    color: #232323;
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 1em;
+    padding: 10px;
+  }
+
+.blockquote {
+    position: absolute;
+    bottom: 160px;
+    left: 30px;
+    padding: 10px;
+    width: 20%;
+    border: 2px solid #AFC8DE ;
+}
+
+/* Quote */
+#quote-me {
+    font-size: 1.25em;
+    color: #AFC8DE;
+    margin-top: 5px;
+    font-weight: light;
+    font-family: 'Thesadith';
+    font-style: italic;
+    text-align: center;
+}
+
+/* Footer Homepage*/
+.footer {
+    color:#f8f5f2;
+    position: absolute;
+    bottom: 160px;
+    right: 30px;
+    padding: 12px;
+}
+
+/* Footer Portfolio*/
+.footerp {
+    color:#232323;
+    position: absolute;
+    bottom: auto;
+    right: 30px;
+    font-family: Verdana, sans-serif;
+    padding: 12px;
+}
+
+/* Photo Grid */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
