@@ -1,0 +1,24 @@
+/* LIBRARY DOWNLOADED FONT */
+/* Regular Thesadith Font */
+@font-face {
+    font-family: 'Thasadith';
+    src: url(./fonts/Thasadith-Regular.ttf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Bold Thesadith Font */
+@font-face {
+    font-family: 'Thesadith';
+    src: url(./fonts/Thasadith-Bold.ttf) format(opentype);
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* SELF-HOSTED FONT */
+@font-face {
+    font-family: 'Lemon Tuesday';
+    src: url(./fonts/Lemon\ Tuesday.otf) format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
