@@ -2,7 +2,7 @@
 ### At least 4 pages
 home, portfolio, reel, about
 ### Responsive Design
-changed image, margin, and padding sizes to percentages and also changed font sizes to 'em' instead of px or %. The website is also usable on a mobile device with a smaller screen as I made required changes specifically for a smaller screen
+changed image, margin, and padding sizes to percentages and also changed font sizes to 'em' instead of px or %. The website is also usable on a mobile device with a smaller screen as I made required changes specifically for a smaller screen. More specifically, the dimensiosn I selected in the 'Inspect' menu was 'IPhone SE'
 ### Media Queriers
 made two media queriers for screen sizes 768px and 480px
 ### Navigation Menu
