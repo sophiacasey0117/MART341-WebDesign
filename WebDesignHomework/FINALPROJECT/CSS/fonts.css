@@ -1,0 +1,32 @@
+/* LIBRARY DOWNLOADED FONT */
+/* MAYONICE */
+@font-face {
+    font-family: 'Mayonice';
+    src: url(./FONTS/Mayonice.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Vortigra */
+@font-face {
+    font-family: 'Vortigra';
+    src: url(./FONTS/Vortigra.otf) format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Thesadith */
+@font-face {
+    font-family: 'Thesadith-Regular';
+    src: url(./FONTS/Thasadith-Regular.ttf) format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Thesadith BOLD */
+@font-face {
+    font-family: 'Thesadith-Bold';
+    src: url(./FONTS/Thasadith-Bold.ttf) format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}

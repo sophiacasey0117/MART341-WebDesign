@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 1%;
+    padding: 1%;
+    background-color: #f2f7f5;
+}
+
+h1 {
+    color: #00473e;
+}
+h2, h3 {
+    font-family: 'Vortigra';
+    color: #00473e;
+}
+
+p {
+    font-family: 'Thesadith-Bold';
+    font-size: 1em;
+    text-align: left;
+    margin: 1%;
+    padding: 1em;
+    color:#232323
+}
+
+.challengesblock {
+    width: 100%; /* or adjust as needed */
+    padding: 40px 40px 40px 40px;
+    margin: 30px 0; /* Adds space on the top and bottom */
+    background-color: #faae2b;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+/* Post Mortem Text Block */
+.postmortem {
+    position: absolute;
+    top: 30%;
+    left: 33%;
+    transform: translate(-50%,-50%);
+    font-size: clamp(8em, 2vw, .25em); 
+    font-family: 'Vortigra';
+    color: #232323;
+    padding: .5em;
+}
+
+/* Name text */
+.sophiacasey {
+    position: absolute;
+    top: 70%;
+    left: 21%;
+    transform: translate(-50%,-50%);
+    font-size: clamp(3em, 2vw, .25em); 
+    font-family: 'Mayonice';
+    color: #00473e;
+    padding: .5em;
+}
+
+/* Collage Image */
+.collage {
+    width: 50%; 
+    float: right;
+}
+
+/* Reflection Text Block */
+.reflection {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: clamp(3em, 2vw, .25em); 
+    font-family: 'Vortigra';
+    color: #00473e;
+    padding: .5em;
+    border: #00473e 2px solid;
+}
+
+/* Home page links */
+.reflectionh {
+    position: absolute;
+    top: 32%;
+    left: 62.5%;
+    transform: translate(-50%,-50%);
+    font-size: clamp(1.5em, 2vw, .25em); 
+    font-family: 'Mayonice';
+    color: #fa5246;
+    padding: .5em;
+    text-decoration: none;
+}
+
+.challengesh {
+    position: absolute;
+    top: 75.5%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+    font-size: clamp(1.5em, 2vw, .25em); 
+    font-family: 'Mayonice';
+    color: #fa5246;
+    padding: .5em;
+    text-decoration: none;
+}
+
+.skillsh {
+    position: absolute;
+    top: 59%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+    font-size: clamp(1.5em, 2vw, .25em); 
+    font-family: 'Mayonice';
+    color: #fa5246;
+    padding: .5em;
+    text-decoration: none;
+}
+
+.pasth {
+    position: absolute;
+    top: 41%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    font-size: clamp(1.5em, 2vw, .25em); 
+    font-family: 'Mayonice';
+    color: #fa5246;
+    padding: .5em;
+    text-decoration: none;
+}
+/* Nav */
+.topnav {
+    background-color: transparent;
+    overflow: hidden;
+}
+
+/* Link Style */
+.topnav a {
+    float: left;
+    color: #fa5246;
+    text-align: center;
+    padding: 1.5em 1em;
+    text-decoration: none;
+    font-size: 2em;
+    font-family: "Mayonice";
+}
+
+/* Hover Style */
+.topnav a:hover {
+    color: #fa5246;
+    opacity: 80%;
+}
+
+/* Right aligned split link in nav */
+.topnav a.split {
+    float: right;
+    background-color: transparent;
+    color: #fa5246;
+}
+
+/* 'Projects' Grid Section */
+.projects-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5%;
+    justify-content: space-around;
+
+}
+.projects {
+    width: 45.5%; /* or adjust as needed */
+    padding: 40px 40px 40px 40px;
+    margin: 30px 0; /* Adds space on the top and bottom */
+    background-color: #faae2b;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.projects img {
+    width: 100%; /* Makes images full width of container */
+    height: auto;
+}
+
+a:hover {
+    opacity: 80%;
+}
+
+/* Responsive Design */
+@media (max-width: 1366px) {
+
+    /* Post Mortem Text Block */
+    .postmortem {
+        position: absolute;
+        top: 30%;
+        left: 38%;
+        transform: translate(-50%,-50%);
+        font-size: clamp(7em, 2vw, .25em); 
+        font-family: 'Vortigra';
+        color: #232323;
+        padding: .5em;
+    }
+    
+    /* Name text */
+    .sophiacasey {
+        position: absolute;
+        top: 80%;
+        left: 28%;
+        transform: translate(-50%,-50%);
+        font-size: clamp(3em, 2vw, .25em); 
+        font-family: 'Mayonice';
+        color: #00473e;
+        padding: .5em;
+    }
+    
+    /* Collage Image */
+    .collage {
+        width: 60%; 
+        margin-top: 8%;
+        margin-right: -2%;
+    }
+    
+    /* Reflection Text Block */
+    .reflection {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-size: clamp(3em, 2vw, .25em); 
+        font-family: 'Vortigra';
+        color: #00473e;
+        padding: .5em;
+        border: #00473e 2px solid;
+    }
+    
+    /* Home page links */
+    .reflectionh {
+        position: absolute;
+        top: 35%;
+        left: 57%;
+        transform: translate(-50%,-50%);
+        font-size: clamp(1.5em, 2vw, .25em); 
+        font-family: 'Mayonice';
+        color: #fa5246;
+        padding: .5em;
+        text-decoration: none;
+    }
+    
+    .challengesh {
+        position: absolute;
+        top:42%;
+        left: 66%;
+        transform: translate(-50%,-50%);
+        font-size: clamp(2em, 2vw, .25em); 
+        font-family: 'Mayonice';
+        color: #fa5246;
+        padding: .5em;
+        text-decoration: none;
+    }
+    
+    .skillsh {
+        position: absolute;
+        top: 55.5%;
+        left: 55%;
+        transform: translate(-50%,-50%);
+        font-size: clamp(1.5em, 2vw, .25em); 
+        font-family: 'Mayonice';
+        color: #fa5246;
+        padding: .5em;
+        text-decoration: none;
+    }
+    
+    .pasth {
+        position: absolute;
+        top: 68.25%;
+        left: 73%;
+        transform: translate(-50%,-50%);
+        font-size: clamp(2em, 2vw, .25em); 
+        font-family: 'Mayonice';
+        color: #fa5246;
+        padding: .5em;
+        text-decoration: none;
+    }
+    
+    .challengesblock {
+        width: 100%; /* or adjust as needed */
+        padding: 40px 40px 40px 40px;
+        margin: 0; /* Adds space on the top and bottom */
+        background-color: #faae2b;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    
+    /* Nav */
+    .topnav {
+        background-color: transparent;
+        overflow: hidden;
+    }
+    
+    /* Link Style */
+    .topnav a {
+        float: left;
+        color: #fa5246;
+        text-align: center;
+        padding: 1em;
+        text-decoration: none;
+        font-size: 1.5em;
+        font-family: "Mayonice";
+        margin-top: 10%;
+    }
+    
+    /* Hover Style */
+    .topnav a:hover {
+        color: #fa5246;
+        opacity: 80%;
+    }
+    
+    /* Right aligned split link in nav */
+    .topnav a.split {
+        float: right;
+        background-color: transparent;
+        color: #fa5246;
+    }
+    
+    /* 'Projects' Grid Section */
+    .projects-section {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5%;
+        justify-content: space-around;
+    
+    }
+    .projects {
+        width: 100%; /* or adjust as needed */
+        padding: 40px 40px 40px 40px;
+        margin: 0px 0; /* Adds space on the top and bottom */
+        background-color: #faae2b;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    
+    .projects img {
+        width: 100%; /* Makes images full width of container */
+        height: auto;
+    }
+    }
